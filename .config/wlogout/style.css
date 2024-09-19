@@ -1,0 +1,69 @@
+* {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background: url("./background/images.png");
+	background-size: cover;
+}
+
+button {
+	color: #ffffff;
+	background-color: rgba(12, 12, 12, 0.7);
+	border: 3px solid #ffffff;
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: 25%;
+}
+
+button:focus,
+button:active,
+button:hover {
+	color: #ffffff;
+	background-color: rgba(12, 12, 12, 0.5);
+	border: 3px solid #ffffff;
+}
+
+/* 
+----------------------------------------------------- 
+Buttons
+----------------------------------------------------- 
+*/
+
+#lock {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/lock.png"));
+}
+
+#logout {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/logout.png"));
+}
+
+#suspend {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/suspend.png"));
+}
+
+#hibernate {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/hibernate.png"));
+}
+
+#shutdown {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/shutdown.png"));
+}
+
+#reboot {
+	margin: 10px;
+	border-radius: 20px;
+	background-image: image(url("icons/reboot.png"));
+}
